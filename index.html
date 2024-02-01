@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.css">
+<title>電卓</title>
+</head>
+
+<body>
+<div id="result">0</div>
+
+<div class="first">
+    <button id = "seven" onclick="clickbutton('7')">7</button>
+    <button id = "eight" onclick="clickbutton('8')">8</button>
+    <button id = "nine" onclick="clickbutton('9')">9</button>
+    <button id = "plus" onclick="clickbutton('+')">+</button>
+</div>
+<div class="second">
+    <button id = "four" onclick="clickbutton('4')">4</button>
+    <button id = "five" onclick="clickbutton('5')">5</button>
+    <button id = "six" onclick="clickbutton('6')">6</button>
+    <button id = "minus" onclick="clickbutton('-')">-</button>
+</div>
+<div class="third">
+    <button id = "one" onclick="clickbutton('1')">1</button>
+    <button id = "two" onclick="clickbutton('2')">2</button>
+    <button id = "three" onclick="clickbutton('3')">3</button>
+    <button id = "multiply" onclick="clickbutton('*')">*</button>
+</div>
+<div class="fourth">
+    <button id = "zero" onclick="clickbutton('0')">0</button>
+    <button id = "double-zero" onclick="clickbutton('00')">00</button>
+    <button id = "colon" onclick="clickbutton('.')">.</button>
+    <button id = "slash" onclick="clickbutton('/')">/</button>
+</div>
+<div class="fifth">
+    <button id = "clear" onclick="clearbutton()">AC</button>
+    <button id = "equal" onclick="equalbutton()">=</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

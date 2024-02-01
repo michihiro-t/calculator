@@ -1,0 +1,21 @@
+#result{
+    width: 215px;
+    color: white; 
+    background-color: black;
+    text-align: right;
+}
+
+
+button{
+    width: 50px;
+}
+
+#clear{
+    width:105px
+}
+
+#equal{
+    width: 105px;
+}
+
+
